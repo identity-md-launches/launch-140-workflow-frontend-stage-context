@@ -1,0 +1,67 @@
+{
+  "checkedAt": "2026-09-24T14:39:00.393Z",
+  "mode": "read-only; no wallet signing or broadcast",
+  "rpc": "https://ethereum-sepolia-rpc.publicnode.com",
+  "chainId": 11155111,
+  "contracts": [
+    {
+      "name": "PVP",
+      "address": "0x55d833403ba3ef446074902946fe4d6b7fe4ce56",
+      "codeBytes": 1579
+    },
+    {
+      "name": "PvPadHook",
+      "address": "0x65be81074b6c4cb07f5fba63bc46f02d4c7340c8",
+      "codeBytes": 11494
+    }
+  ],
+  "infrastructure": [
+    {
+      "name": "router",
+      "address": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "codeBytes": 19540
+    },
+    {
+      "name": "quoter",
+      "address": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "codeBytes": 5820
+    },
+    {
+      "name": "permit2",
+      "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+      "codeBytes": 9152
+    },
+    {
+      "name": "poolManager",
+      "address": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+      "codeBytes": 24009
+    }
+  ],
+  "state": {
+    "king": "0x0000000000000000000000000000000000000000",
+    "beneficiary": "0x0000000000000000000000000000000000000000",
+    "claimPrice": "10000000000000000",
+    "claimCount": "0",
+    "workerPot": "0",
+    "currentEpoch": "0",
+    "poolManager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543",
+    "FEE_BPS": "100",
+    "BUMP_BPS": "1000"
+  },
+  "quote": {
+    "inputWei": "10000000000000",
+    "outputMinorUnits": "491338320872150497950",
+    "gasEstimate": "157085"
+  },
+  "block": "11772680",
+  "buySimulation": {
+    "result": "PASS",
+    "method": "eth_call",
+    "source": "swapAction from delivered frontend",
+    "stateOverride": "Synthetic account ETH balance only",
+    "inputWei": "10000000000000",
+    "minimumOutput": "488881629267789745460",
+    "broadcast": false
+  },
+  "result": "read checks passed"
+}

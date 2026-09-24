@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "launchId": "f4249894-a729-4123-880c-91fd39224e00",
+  "chainId": 11155111,
+  "sourceCommit": "9905bf8deee060f0c236b6ff2a006961a7346866",
+  "attestationHash": "8486bb89a2b458fbf78d96faf0fc288cfee463995cdfb65cb459767904dcdcba",
+  "contracts": [
+    {
+      "name": "PVP",
+      "address": "0x55d833403ba3ef446074902946fe4d6b7fe4ce56",
+      "abiHash": "f36b3238fd4981eb4d0d61b588ada5104bfbbaae565177fe762408185bf6e5c1",
+      "abiPath": "abi/PVP.json"
+    },
+    {
+      "name": "PvPadHook",
+      "address": "0x65be81074b6c4cb07f5fba63bc46f02d4c7340c8",
+      "abiHash": "e29bf8e305ca09e0a7a717e762aa6bc21bd2e2c9e314364d4286e540b980e9b0",
+      "abiPath": "abi/PvPadHook.json"
+    }
+  ],
+  "assets": [
+    {
+      "path": "abi/PVP.json",
+      "sha256": "ce60998942fb40a720d18128c8951348640b4309d99dbb08f9ab89c5500c2b9a"
+    },
+    {
+      "path": "abi/PvPadHook.json",
+      "sha256": "9172a16ae825ea6ce1ba3de9a26f6a98a170c72d3267ec94acfb61ed44724b4e"
+    },
+    {
+      "path": "assets/ethereum-BAPnoaCc.js",
+      "sha256": "2a54a5fdcfac7701233ed91752a5cb8fabd856912da46100d1c68ea7cbf87215"
+    },
+    {
+      "path": "assets/index--Z-Rr9t-.js",
+      "sha256": "7616aa76c7ef65b5547faa70f2346d209f21717678ca133daacf60279c782668"
+    },
+    {
+      "path": "assets/index-CDZmmBsj.css",
+      "sha256": "ee1ec369d55578a71a959a7a9a21bf35ab88e776d20d50e4eaa5377bf9241eb9"
+    },
+    {
+      "path": "assets/react-CampNIbe.js",
+      "sha256": "7de5cafca473638ace5f7ef2d89ea5d297c909e333d4ff5ddf6ccff7c5580560"
+    },
+    {
+      "path": "index.html",
+      "sha256": "fb2dfefc3f65dd59256af6c12eb79d8245a28689373fd490a24153cec7be1fe9"
+    },
+    {
+      "path": "network.json",
+      "sha256": "a10ea39ac5f6b6b6c7ddcada0d8308e1f7d7e2045c50e23022dfabc705c2c43d"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+
+> pvpad-frontend@1.0.0 test
+> playwright test
+
+[2m[WebServer] [22m(node:30) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[2m[WebServer] [22m(Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 1 worker
+
+(node:42) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:42) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/app.spec.ts:20:1 › gateway subpath, mobile/desktop layout, semantics and keyboard (3.3s)
+  ✓   2 tests/app.spec.ts:59:1 › missing wallet, connection rejection, wrong chain and switch (1.7s)
+  ✓   3 tests/app.spec.ts:87:1 › no injected wallet gives actionable message (771ms)
+  ✓   4 tests/app.spec.ts:98:1 › ETH buy enforces exact input, hook pool key, minimum output and expiry (2.0s)
+  ✓   5 tests/app.spec.ts:130:1 › PVP sell requires two limited approvals and submits zero native value (4.4s)
+  ✓   6 tests/app.spec.ts:165:1 › quote inputs invalidate output; invalid precision, balance and slippage fail (1.9s)
+  ✓   7 tests/app.spec.ts:198:1 › king bid strictly exceeds threshold; cancel, rejection and success (2.2s)
+  ✓   8 tests/app.spec.ts:241:1 › worker proof binding, valid relay, replay guard and voluntary funding (2.7s)
+  ✓   9 tests/app.spec.ts:276:1 › fee withdrawal, redeem and unassigned controls use selected currency (2.7s)
+  ✓  10 tests/app.spec.ts:301:1 › updater role gating and all ERC20 actions including burn review (4.6s)
+  ✓  11 tests/app.spec.ts:336:1 › updater can publish ended epoch with evidence acknowledgement and hand off (3.0s)
+  ✓  12 tests/app.spec.ts:370:1 › simulation revert blocks wallet and receipt revert is not success (1.8s)
+  ✓  13 tests/app.spec.ts:406:1 › account event closes review; silent network changes block send (1.9s)
+  ✓  14 tests/app.spec.ts:439:1 › missing code and unavailable RPC keep actions locked (1.5s)
+  ✓  15 tests/app.spec.ts:462:1 › ABI asset tampering fails closed before showing transaction controls (316ms)
+  ✓  16 tests/app.spec.ts:475:1 › quote expiry and quote failure block swaps (26.3s)
+  ✓  17 tests/app.spec.ts:502:1 › public RPC outage locks disconnected app; connected wallet provides fallback (1.3s)
+  ✓  18 tests/app.spec.ts:526:1 › all panels and transaction dialog remain accessible at mobile width (5.4s)
+
+  18 passed (1.2m)
+npm notice
+npm notice New major version of npm available! 11.19.0 -> 12.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.1.0
+npm notice To update run: npm install -g npm@12.1.0
+npm notice

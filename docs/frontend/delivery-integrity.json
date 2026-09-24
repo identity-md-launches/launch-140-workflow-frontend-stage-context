@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-09-24T14:42:40.070153+00:00",
+  "scope": "PASS; all new files within web/, dist/, docs/",
+  "existingTrackedFilesChanged": [],
+  "newFilesBytesExcludingThisReport": 1246974,
+  "existingHistoryBundleBytes": 238375,
+  "conservativePendingBundleBudgetBytes": 1563354,
+  "bundleLimitBytes": 8388608,
+  "budgetMethod": "Existing history bundle + all uncompressed new bytes + 64 KiB and 1% overhead; final bundle unavailable because Git metadata is read-only",
+  "fullProposedTreeBytesExcludingThisReport": 2659644,
+  "staticExportAssets": 8,
+  "staticExportBytesIncludingManifest": 566352,
+  "maximumExportFileBytes": 266159,
+  "ignoreFile": {
+    "path": "web/.gitignore",
+    "explicitBudgetBytes": 1024,
+    "actualBytes": 158
+  },
+  "submodules": 0,
+  "includedDependencyCacheArchivePaths": [],
+  "gitCommit": "Blocked: .git/index.lock cannot be created on read-only filesystem",
+  "publication": "Not attempted; publisher stage",
+  "newFilesExcludingThisReport": 45
+}

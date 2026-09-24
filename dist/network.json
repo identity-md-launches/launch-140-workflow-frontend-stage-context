@@ -1,0 +1,25 @@
+{
+  "name": "Sepolia",
+  "rpcUrls": [
+    "https://ethereum-sepolia-rpc.publicnode.com",
+    "https://rpc.sepolia.org"
+  ],
+  "explorer": "https://sepolia.etherscan.io",
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infrastructure": {
+    "router": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+    "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+    "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+  },
+  "pool": {
+    "fee": 3000,
+    "tickSpacing": 60,
+    "initialPrice": "79228162514264337593543950336000",
+    "pairedCurrency": "0x0000000000000000000000000000000000000000",
+    "manager": "0xE03A1074c86CFeDd5C142C4F04F1a1536e203543"
+  }
+}
